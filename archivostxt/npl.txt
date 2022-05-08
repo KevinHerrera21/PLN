@@ -1,0 +1,22 @@
+Procesamiento del lenguaje natural
+
+El Procesamiento del Lenguaje Natural (NLP por sus siglas en inglés), es el campo de estudio
+encargado de la comprensión del lenguaje humano mediante ordenador. Abarca parte de la ciencia 
+de datos, inteligencia artificial (aprendizaje automático) y la lingüística. En NLP las computadoras 
+analizan el leguaje humano, lo interpretan y dan significado para que este pueda ser utilizado de 
+manera práctica. Usando NLP es posible hacer tareas como resumen automático de textos, traducción de 
+idiomas, extracción de relaciones, análisis de sentimiento, reconocimiento del habla y clasificación de 
+artículos por temáticas.
+
+Con el desarrollo de las ciencias exactas, surgieron otros modos de interacción, donde no solo 
+existe el lenguaje en su forma gramatical y lingüística, sino que se emplean otras formas de lenguaje 
+denominados “lenguajes formales” centrados en las matemáticas y otras disciplinas como la robótica o 
+la computación. Por ejemplo, siglas como XML, SQL y PHP refieren a lenguajes de programación que tienen 
+relación con el funcionamiento adecuado de un sitio web. En esta dinámica surgen muchos lenguajes que 
+han permitido el desarrollo tecnológico y su constante innovación, así como el procesamiento de nuevas 
+formas de lenguaje.
+
+Análisis de sentimientos: Es la determinación del tono emocional implícito en una frase. Por ejemplo, 
+si un texto anuncia una caída de las acciones en la bolsa, el programa va a predecir que posiblemente 
+es un texto negativo. Por otra parte, si un texto se refiere a una fiesta y todos están invitados a 
+asistir, se puede decir que su significado es positivo.
