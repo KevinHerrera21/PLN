@@ -1,0 +1,225 @@
+﻿
+
+Institución: Universidad de Colima
+Escuela: Facultad de Ingeniería Mecánica y Eléctrica
+Carrera: Ingeniería en Computación Inteligente
+Materia: Arquitectura de Servidores
+Profesor: García Virgen Juan
+Alumno: Herrera Escareño Kevin Alejandro 
+ Grado y grupo: 6°B
+Nombre de la actividad: 3.- Tipos de Servidores.
+ Fecha: 18 de Febrero de 2022
+Lugar: Colima Col.
+
+
+Índice
+Apache	3
+MySQL	4
+SQL Server	5
+Firebird	7
+Oracle	8
+FileZilla	9
+AndFTP	11
+FTPClient	12
+Bibliografía	13
+
+
+
+
+Apache
+El servidor Apache HTTP, también llamado simplemente Apache, es un servidor web HTTP de código abierto para la creación de páginas y servicios web, que implementa el protocolo HTTP/1.1 y la noción de sitio virtual según la normativa RFC 2616.
+
+Figura 1. Logotipo de Apache.
+Es un proyecto de software libre, creado y mantenido por la comunidad, pero gestionado por la fundación Apache, una organización sin ánimo de lucro responsable de una cantidad enorme de proyectos.
+Apache es multiplataforma, ya que se encuentra disponible en Windows, Linux, Unix y Mac, aunque en servidores de producción habitualmente se instala sobre Linux. Con Apache se pueden servir sitios estáticos, pero también dispone de módulos para dar soporte a múltiples lenguajes, como Perl, Python o PHP. De hecho, Apache y PHP son dos de las piezas implementadas en el stack de tecnologías de servidor más utilizado: LAMP (Linux, Apache, MySQL, PHP).
+Cuenta con un gran número de opciones de configuración y es capaz de adaptarse a la mayoría de las situaciones, dado que es extensible por medio de módulos. Existen módulos de todo tipo, los cuales permiten extender el soporte a múltiples funcionalidades y tecnologías.
+Ventajas
+Las principales ventajas de utilizar este servicio web son las siguientes:
+• De código abierto y gratuito, con una gran comunidad de usuarios.
+• Parches de seguridad regulares y actualizados con frecuencia.
+• Estructura basada en módulos.
+• Multiplataforma. Está disponible en servidores Windows y Linux.
+• Personalización mediante .htaccess independiente en cada hosting.
+• Compatible con los principales CMS, tiendas online y plataformas e-learning.
+Desventajas
+• Presenta problemas de estabilidad por encima de las 10,000 conexiones.
+• Un uso abusivo de módulos puede generar brechas de seguridad.
+MySQL
+Es un sistema gestor de bases de datos relacionales (RDBMS por sus siglas en inglés), ampliamente utilizado por su simplicidad y notable rendimiento. MySQL es ideal para crear bases de datos con acceso desde páginas web dinámicas, para la creación de sistemas de transacción on-line o para cualquier otra solución profesional que implique almacenar datos, teniendo la posibilidad de realizar múltiples y rápidas consultas. Esto, junto a su libre distribución en Internet bajo licencia GPL le otorgan como beneficios adicionales contar con un alto grado de estabilidad y un rápido desarrollo.
+
+Figura 2. Logotipo de MySQL.
+MySQL es un sistema de gestión de bases de datos que cuenta con una doble licencia. Por una parte, es de código abierto, pero por otra, cuenta con una versión comercial gestionada por la compañía Oracle.
+MySQL permite almacenar y acceder a los datos a través de múltiples motores de almacenamiento, incluyendo InnoDB, CSV y NDB. Además, es capaz de replicar datos y particionar tablas, mediante comandos SQL estándar, para mejorar el rendimiento y la durabilidad. MySQL es accesible, ya que se encuentra disponible en más de 20 plataformas, como Mac, Windows, Linux y Unix. 
+El RDBMS soporta grandes bases de datos con millones de registros y admite muchos tipos de datos, como enteros (con o sin signo) de 1, 2, 3, 4 y 8 bytes de longitud, float, double, char, varchar, binary, varbinary, text, blob, date y tipos espaciales Open GIS. También se admiten cadena de longitud fija y variable.
+Para la seguridad, MySQL utiliza un sistema de privilegios de acceso y contraseñas encriptadas que permite la verificación basada en el host. Los clientes de MySQL pueden conectarse a MySQL Server utilizando varios protocolos, incluyendo sockets TCP/IP en cualquier plataforma.
+Ventajas
+MySQL ofrece varias ventajas respecto a otros sistemas gestores de bases de datos:
+• Tiene licencia pública, permitiendo no solo la utilización del programa sino también la consulta y modificación de su código fuente. Resulta por tanto fácil de personalizar y adaptar a las necesidades concretas.
+• El programa está desarrollado en C y C++, lo que facilita su integración en otras aplicaciones desarrolladas igualmente en esos lenguajes.
+• Puede ser descargado gratuitamente de internet, haciendo uso de su licencia GPL.
+• Utiliza el lenguaje SQL (Structured Query Languaje – Lenguaje de Consulta Estructurado) que es el lenguaje de consulta más usado y estandarizado para acceder a bases de datos relacionales.
+• Es un sistema cliente/servidor, permitiendo trabajar como servidor multiusuario y de subprocesamiento múltiple, es decir, cada vez que se establece una conexión con el servidor, el programa servidor crea un subproceso para manejar la solicitud del cliente, controlando el acceso simultáneo de un gran número de usuarios a los datos y asegurando el acceso solo a usuarios autorizados.
+Desventajas
+• Al ser de Software Libre, muchas de las soluciones para las deficiencias del software no están documentadas ni presentan documentación oficial.
+• Se debe controlar/monitorizar el rendimiento de las aplicaciones en busca de fallos.
+• A diferencia de otras aplicaciones, carece de intuición.
+• Dependiendo del uso, requiere de gran almacenamiento de memoria.
+• El proceso de depuración de los procesos almacenados no es sencillo.
+• Su funcionamiento depende de la conexión del servidor.
+SQL Server
+Microsoft SQL Server es un sistema de gestión de base de datos relacional, desarrollado por la empresa Microsoft. El lenguaje de desarrollo utilizado (por línea de comandos o mediante la interfaz gráfica de Management Studio) es Transact-SQL (TSQL), una implementación del estándar ANSI del lenguaje SQL, utilizado para manipular y recuperar datos (DML), crear tablas y definir relaciones entre ellas (DDL).
+
+Figura 3. Logotipo de SQL Server.
+Tradicionalmente SQL Server ha estado disponible solo para sistemas operativos Windows de Microsoft, pero desde 2016 está disponible para GNU/Linux, y a partir de 2017 para Docker también. 
+Puede ser configurado para utilizar varias instancias en el mismo servidor físico, la primera instalación lleva generalmente el nombre del servidor, y las siguientes nombres específicos (con un guion invertido entre el nombre del servidor y el nombre de la instalación).
+Generalmente, los servidores SQL Server ofrecen al usuario una alta disponibilidad con la cual permitir procesos de conmutación más rápidos. Sus funcionalidades de memoria integrada permiten incrementar la flexibilidad y facilidad de uso otorgando una perfecta integración con la familia de servidores Microsoft Server.
+Su componente principal está compuesto por un motor relacional encargado del procesamiento de comandos y consultas, así como del almacenamiento de archivos, bb.dd., tablas y búferes de datos. Sus niveles secundarios están destinados a la gestión de la memoria, programación y administración de las interacciones de solicitud y respuesta con los servidores que alojan las bases de datos.
+Generalmente, los servidores SQL Server ofrecen al usuario una alta disponibilidad con la cual permitir procesos de conmutación más rápidos. Sus funcionalidades de memoria integrada permiten incrementar la flexibilidad y facilidad de uso otorgando una perfecta integración con la familia de servidores Microsoft Server.
+Ventajas
+Al utilizar SQL Server es posible apreciar las siguientes ventajas:
+• Facilidad de soporte para transacciones.
+• Escalabilidad, estabilidad y seguridad.
+• Soporta procedimientos almacenados.
+• Incluye un potente entorno gráfico de administración, que permite el uso de comandos DDL y DML gráficamente.
+• Permite trabajar en modo cliente-servidor, donde la información y datos se alojan en el servidor, y las terminales o clientes de la red sólo acceden a la información.
+• Permite administrar información de otros servidores de datos.
+Desventajas
+• Consume una gran cantidad de memoria RAM para la instalación y utilización del software.
+• Contiene muchos bloqueos a nivel de página, con un tamaño de página fijo y demasiado pequeño.
+• Presenta una pésima implementación de los tipos de datos y variables.
+• Contiene límites de conexiones simultaneas para las páginas.
+• Utiliza Address Windowing Extensión (AWE) para hacer el direccionamiento de 64-bit. Esto le impide usar la administración dinámica de memoria y sólo le permite alojar un máximo de 64GB de memoria compartida.
+• Las consultas escritas en T-SQL no son retro compatibles con la versión de SQL Server 2008 o anteriores.
+Firebird
+Firebird es un potente gestor de bases de datos relacional de código abierto, es decir, no comercial, que opera bajo los estándares de SQL tanto de sintaxis como en tipos de datos. Dicho gestor cuenta con un rendimiento excelente y se escala de manera impresionante; desde un modelo integrado y monousuario, hasta desarrollos empresariales con múltiples bases de datos de más de 500 Gb y con cientos de clientes simultáneos.
+
+Figura 4. Logotipo de Firebird.
+Firebird soporta un gran número de plataformas de software y hardware: Windows, Linux, MacOS, HP-UX, AIX, Solaris y más. Funciona en x386, x64 y PowerPC, Sparc y otras plataformas, además de que cuenta con un mecanismo de fácil migración entre tales plataformas. Una de las características claves de Firebird es su arquitectura multigeneracional, que permite el desarrollo y soporte de aplicaciones híbridas OLTP y OLAP.
+Firebird es capaz de servir simultáneamente como un almacén de datos analítico y operacional, debido a que las lecturas no bloquean a las escrituras cuando acceden a los mismos datos en la mayoría de las situaciones. Firebird soporta procedimientos almacenados, disparadores, eventos y funciones definidas por el usuario; tiene un gran soporte a SQL92.
+De manera adicional, Firebird:
+• Emplea un ejecutable pequeño, con requerimientos de hardware bajos.
+• Es de arquitectura Cliente/Servidor sobre protocolo TCP/IP y otros (embedded).
+• Mantiene un soporte de transacciones ACID y claves foráneas.
+• Es medianamente escalable.
+• Tiene una buena seguridad basada en usuarios/roles.
+• Admite diferentes arquitecturas, entre ellas el Servidor Embebido ​(embedded server) que permite ejecutar aplicaciones monousuario en ordenadores sin instalar el software Firebird.
+• Cuenta con controladores ODBC, OLEDB, JDBC, PHP, Perl, .net.
+• Posee requisitos de administración bajos, siendo considerada como una base de datos libre de mantenimiento, al margen de la realización de copias de seguridad.
+• Cuenta con un lenguaje completo para la escritura de disparadores y procedimientos almacenados, denominado PSQL.
+Ventajas
+• Firebird es una base de datos ligera y sencilla de instalar, solo es necesario un ejecutable autoinstalable o un script según plataforma.
+• No consume grandes recursos en el servidor.
+• Posee un tipo de licencia similar a MPL (Mozilla Public License), que permite su uso de forma gratuita y con una distribución muy poco restrictiva.
+• Existen multitud de componentes para distintos lenguajes de programación.
+Desventajas
+• Es posible que un archivo de datos se dañe, si alguna conexión de red o programa cliente tiene un problema, ya que lo está abriendo directamente.
+• Alta complejidad de manejo.
+Oracle
+Es posible definir a Oracle como una herramienta cliente/servidor para la gestión de bases de datos de tipo objeto-relacional (ORDBMS, por el acrónimo en inglés de Object-Relational Data Base Management System), desarrollado por Oracle Corporation. Es utilizado principalmente en grandes empresas, debido a que permite controlar y gestionar grandes volúmenes de contenidos no estructurados en un único repositorio, con el objetivo de reducir los costes y los riesgos asociados a la pérdida de información.
+Oracle cuenta con soporte de transacciones, estabilidad y soporte multiplataforma de Windows, Linux, Mac OS X, Unix y BDS.
+
+Figura 5. Logotipo de Oracle.
+El sistema Oracle database está formado por una colección de datos, los cuales se tratan como una sola unidad. El propósito del sistema Oracle database es almacenar y recuperar información relacionada. Un servidor de base de datos es la clave para resolver los problemas de gestión de la información.
+La base de datos tiene estructuras lógicas y estructuras físicas y, debido a que ambas se encuentran separadas, el almacenamiento físico de los datos se puede gestionar sin afectar el acceso a las estructuras de almacenamiento lógico. En base a ello se ha diseñado la arquitectura del sistema Oracle database, que combina una base de datos y, al menos, una instancia de base de datos.
+A manera de síntesis, Oracle presenta las siguientes características:
+• Modelo relacional: Los usuarios visualizan los datos en tablas con el formato filas/columnas.
+• Herramienta de administración gráfica intuitiva y cómoda de utilizar.
+• Control de acceso: Tecnologías avanzadas para vigilar la entrada a los datos.
+• Protección de datos: Seguridad completa en el entorno de producción y de pruebas, así como gestión de copias de seguridad.
+• Lenguaje de diseño para bases de datos muy completo (PL/SQL): Permite implementar diseños activos, los cuales se pueden adaptar a las necesidades cambiantes de negocio.
+• Gestión de usuarios: Agilidad en los trámites, reducción de costes y seguridad en el control del personal que accede a las aplicaciones y a los sistemas.
+Ventajas
+• Alta disponibilidad: Escalabilidad, protección y alto rendimiento para la actividad empresarial.
+• Puede ejecutarse en todas las plataformas, desde una Pc hasta un supercomputador.
+• Permite el uso de particiones para la mejora de la eficiencia de replicación e incluso ciertas versiones admiten la administración de bases de datos distribuidas.
+Desventajas
+• Falta de información sobre su uso.
+• Alto costo.
+FileZilla
+Es una aplicación FTP (File Transfer Protocol) de código abierto, la cual permite alojar y compartir archivos a través de una red. Al tener una arquitectura basada en cliente-servidor posibilita la transferencia de archivos en forma bidireccional. En este sentido, es una herramienta que se conecta con el servidor para modificar archivos de forma remota.
+Inicialmente fue diseñado para funcionar en Microsoft Windows, pero desde la versión 3.0.0, gracias al uso de wxWidgets, es multiplataforma, estando disponible para otros sistemas operativos, entre ellos GNU/Linux, FreeBSD y macOS.
+
+Figura 6. Logotipo de FileZilla.
+Estas son algunas de las características de FileZilla cliente:
+• Transfiera archivos utilizando FTP y FTP con cifrado, como FTPS (servidor y cliente) y SFTP.
+• Compatible con IPv6.
+• El proceso de transferencia de archivos se puede pausar y continuar.
+• Interfaz de usuario con pestañas para realizar múltiples tareas, y para permitir navegar por más de un servidor o incluso transferir archivos simultáneamente entre múltiples servidores.
+• Arrastrar y soltar para descargar y subir.
+• Límites de velocidad de transferencia configurables para limitar la velocidad de transferencia de los archivos, lo que ayuda a reducir el error de transferencia.
+• Edición remota de archivos, para editar rápidamente archivos en el lado del servidor sobre la marcha. No es necesario descargarlo, editarlo en la computadora y volver a cargarlo en el servidor.
+• Keep-alive, si la conexión ha estado inactiva durante mucho tiempo, se comprobará mediante el envío del comando keep-alive.
+• Soporte HTTP/1.1, SOCKS5 y FTP-Proxy.
+Estas son algunas de las características de FileZilla servidor:
+• FTP y FTP sobre SSL/TLS (FTPS).
+• Soporte de IPv6.
+• Límites de velocidad.
+• Soporte de archivos grandes, mayor a 4GB.
+• Administración remota.
+• Sistema de permisos con usuarios y grupos.
+• Filtros de IP.
+Ventajas
+El uso de FileZilla presenta las siguientes ventajas:
+• Realiza una conexión rápida con el servidor.
+• Es ideal para subir muchos archivos o pocos, según se necesite.
+• Es multiplataforma, funciona en cualquier sistema operativo.
+• Permite subir y bajar archivos bidireccionalmente.
+• No se requiere de conocimientos técnicos para usarlo.
+Desventajas
+• No permite la automatización de diferentes procesos, como por ejemplo conectar a través de un servidor SSH.
+• Es un protocolo viejo, que, si bien ha recibido actualizaciones, no se ha adaptado al desarrollo web moderno.
+• Pueden quedar corruptos los archivos si hay errores en la red.
+• No permite paralelizar las descargas o subidas de archivos.
+AndFTP
+Es un cliente gratuito de FTP, FTPS, SCP y SFTP, que permite gestionar múltiples configuraciones de FTP desde la pantalla del terminal Android. Actualmente se encuentra disponible en la tienda de aplicaciones de Google.
+
+Figura 7. Logotipo de AndFTP.
+La aplicación cuenta con un buscador tanto de archivos como de dispositivos, y permite descargar, subir, sincronizar y compartir cualquier archivo desde el teléfono móvil. Además, es posible abrir cualquier documento, borrarlo, renombrarlo e incluso actualizar los permisos. La aplicación, por supuesto, permite subir cualquier fotografía, archivo de sonido o incluso una APK con total comodidad, lo único necesario seria configurar previamente el FTP.
+Actualmente existen 2 versiones de AndFTP; una gratuita que no permite sincronizar carpetas e incluye algún que otro anuncio, y una versión premium que elimina estas 2 limitaciones, por 4.99$.
+Ventajas
+Las principales ventajas de AndFTP son las siguientes:
+• Es una aplicación móvil.
+• Facilita la administración del servidor FTP.
+• Permite la conexión a varios servidores FTP al mismo tiempo.
+• Ofrece una versión gratuita.
+• Cuenta con un explorador de archivos.
+• Posee un explorador de archivos.
+• Es un cliente FTP sencillo, rápido y seguro.
+Desventajas
+• Contiene publicidad.
+• La interfaz de usuario es un poco antigua.
+• Existe muy poca documentación.
+FTPClient
+FTP Client es una de las mejores aplicaciones de FTP para usuarios de iPhone y iPad. Se encuentra disponible en la App Store de iOS, a través de una versión gratuita y una de pago. La versión Pro tiene un costo de 4 dólares, y permite un uso sin limitaciones.
+
+Figura 8. Logotipo de FTPClient (versión gratuita).
+FTPClient cuenta con las siguientes características:
+• Es compatible con SFTP y FTPS (implícito y explícito), además de admitir claves privadas.
+• Los archivos de vídeo o imágenes se cargan en su formato original sin usar ningún tipo de compresión.
+• Soporta gridview.
+• Incorpora un editor de texto compatible con múltiples extensiones como txt, css, php, xml, html, csv, htm.
+• Incorpora un visor de documentos compatible con las extensiones doc, txt, rtf, pdf, pps, xls.
+• Puede reproducir archivos multimedia en streaming de los formatos mp3, avi y mov.
+• Permite mover, copiar, renombrar, eliminar archivos y carpetas manteniendo pulsado un dedo sobre la pantalla unos segundos.
+• Es posible realizar múltiples inicios de sesión.
+• Permite gestionar los permisos de los archivo y carpetas.
+Ventajas
+• Interfaz limpia y fácil de usar.
+• Permite importar archivos desde iCloud Drive.
+• Ofrece muchas opciones de configuración.
+• Permite el uso de marcadores.
+Desventajas
+• La versión gratuita presenta algunas limitaciones.
+• El editor integrado es deficiente.
+
+Bibliografía
+Espinosa, O. (2019, 10 noviembre). Los mejores clientes FTP, FTPES y SFTP para iPhone y iPad. RedesZone. Recuperado 18 de febrero de 2022, de https://www.redeszone.net/tutoriales/servidores/mejores-clientes-ftp-ftpes-sftp-iphone-ipad/
+Jesuïtes Educació. (2019, 20 octubre). ¿Qué es Oracle y por qué es tan importante para las empresas? FP Online. Recuperado 18 de febrero de 2022, de https://fp.uoc.fje.edu/blog/que-es-oracle-por-que-importante-para-empresas/
+Kinsta. (2020, 7 enero). ¿Qué es Apache Web Server? Una Mirada a lo que Es y Cómo Funciona. Recuperado 18 de febrero de 2022, de https://kinsta.com/es/base-de-conocimiento/que-es-apache/
+López, A. (2021, 30 marzo). AndFTP. Uptodown.com. Recuperado 18 de febrero de 2022, de https://andftp-your-ftp-client.uptodown.com/android
+Pérez, S. (2021, 18 octubre). ¿Qué es Microsoft SQL Server y para qué sirve? Intelequia. Recuperado 18 de febrero de 2022, de https://intelequia.com/blog/post/2948/qu%C3%A9-es-microsoft-sql-server-y-para-qu%C3%A9-sirve
+Ramírez, I. (2019, 16 septiembre). Filezilla: qué es, para que sirve y primeros pasos con este cliente de FTP. Xataka. Recuperado 18 de febrero de 2022, de https://www.xataka.com/basics/filezilla-que-sirve-primeros-pasos-este-cliente-ftp
+Robledano, A. (2019, 24 septiembre). Qué es MySQL: Características y ventajas. OpenWebinars.net. Recuperado 18 de febrero de 2022, de https://openwebinars.net/blog/que-es-mysql/
+Zúñiga, F. G. (2019, 4 noviembre). Lleva tus bases de datos al próximo nivel con Firebird. Blog de arsys.es. Recuperado 18 de febrero de 2022, de https://www.arsys.es/blog/firebird-bbdd
+
+

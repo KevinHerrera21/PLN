@@ -1,1 +1,20 @@
+Computación en la nube
 
+La computación en la nube (o cloud computing, en inglés) es una tecnología que permite acceder 
+remotamente, de cualquier lugar del mundo y en cualquier momento, a softwares, almacenamiento de archivos 
+y procesamiento de datos a través de Internet, sin la necesidad de conectarse a un ordenador personal o 
+servidor local.En otras palabras, la computación en la nube utiliza la conectividad y gran escala de 
+Internet para hospedar los más variados recursos, programas e información, y con ello permitir que el 
+usuario ingrese a ellos través de cualquier ordenador, tablet o celular.
+
+El cloud computing utiliza un servidor remoto para conectar los dispositivos de los usuarios a recursos 
+centralizados, además de almacenar todos los datos y programas necesarios. Es posible acceder a dichos 
+servidores mediante Internet, desde cualquier lugar, aunque estén almacenados a kilómetros de distancia.
+
+Nube pública: Son recursos computacionales, como servidores y almacenamiento, provistos por un tercero 
+y disponibles a cualquier persona o empresa que desee contratarlos. En este modelo, el cliente se 
+responsabiliza por lo que será enviado a la nube, sea una copia de seguridad, una aplicación o algunos 
+archivos, mientras el proveedor de la nube se preocupa por la manutención, la seguridad y la gestión de 
+todos los recursos. En la nube pública, todo está disponible en la web y se comparte entre varios 
+usuarios que usan de manera simultánea (pero por separado), lo que hace que los recursos se mantengan 
+estandarizados
